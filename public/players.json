@@ -1,0 +1,137 @@
+[
+    {
+        "playerId": 1,
+        "name": "Tamim Iqbal",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/GcngVwf/tamim-iqbal-odi-squad-16-02-2023.jpg",
+        "role": "Batsman",
+        "battingBowlingType": "Left-hand bat",
+        "biddingPrice": "500,000 USD"
+    },
+    {
+        "playerId": 2,
+        "name": "Shakib Al Hasan",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/TwycdTb/5ea2ed1eb81e2.jpg",
+        "role": "All-rounder",
+        "battingBowlingType": "Left-hand bat, Left-arm orthodox",
+        "biddingPrice": "600,000 USD"
+    },
+    {
+        "playerId": 3,
+        "name": "Andre Russell",
+        "country": "West Indies",
+        "image": "https://i.ibb.co.com/GVm9Rr3/l31920240429122655.webp",
+        "role": "All-rounder",
+        "battingBowlingType": "Right-hand bat, Right-arm fast",
+        "biddingPrice": "700,000 USD"
+    },
+    {
+        "playerId": 4,
+        "name": "Chris Gayle",
+        "country": "West Indies",
+        "image": "https://i.ibb.co.com/NNS20HK/CHRIS-GAYLE-png.webp",
+        "role": "Batsman",
+        "battingBowlingType": "Left-hand bat",
+        "biddingPrice": "650,000 USD"
+    },
+    {
+        "playerId": 5,
+        "name": "Mashrafe Mortaza",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/KNBDR3q/mashrafe-bin-mortaza-ehlatifee-com-202012137599.jpg",
+        "role": "Bowler",
+        "battingBowlingType": "Right-arm medium-fast",
+        "biddingPrice": "300,000 USD"
+    },
+    {
+        "playerId": 6,
+        "name": "Mahmudullah Riyad",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/8XDgk45/prothomalo-english-2021-10-c948c397-1942-452d-b9c3-76709ac01347-Cricket.webp",
+        "role": "All-rounder",
+        "battingBowlingType": "Right-hand bat, Right-arm offbreak",
+        "biddingPrice": "450,000 USD"
+    },
+    {
+        "playerId": 7,
+        "name": "Shoaib Malik",
+        "country": "Pakistan",
+        "image": "https://i.ibb.co.com/ZBCKtH8/1213328-238315-11111111-updates.webp",
+        "role": "All-rounder",
+        "battingBowlingType": "Right-hand bat, Right-arm offbreak",
+        "biddingPrice": "400,000 USD"
+    },
+    {
+        "playerId": 8,
+        "name": "Mujeeb Ur Rahman",
+        "country": "Afghanistan",
+        "image": "https://i.ibb.co.com/5GF5Tc0/83c2f-17195551172498-1920.webp",
+        "role": "Bowler",
+        "battingBowlingType": "Right-arm offbreak",
+        "biddingPrice": "350,000 USD"
+    },
+    {
+        "playerId": 9,
+        "name": "Kieron Pollard",
+        "country": "West Indies",
+        "image": "https://i.ibb.co.com/J2R15xJ/Kieron-pollard-1660034431634-1660034431915-1660034431915.jpg",
+        "role": "All-rounder",
+        "battingBowlingType": "Right-hand bat, Right-arm medium-fast",
+        "biddingPrice": "600,000 USD"
+    },
+    {
+        "playerId": 10,
+        "name": "Imrul Kayes",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/PmHp3Td/253160.webp",
+        "role": "Batsman",
+        "battingBowlingType": "Left-hand bat",
+        "biddingPrice": "300,000 USD"
+    },
+    {
+        "playerId": 11,
+        "name": "Faf du Plessis",
+        "country": "South Africa",
+        "image": "https://i.ibb.co.com/5vc1NQC/faf-du-plessis-smashed-a-20-ball-fifty.webp",
+        "role": "Batsman",
+        "battingBowlingType": "Right-hand bat",
+        "biddingPrice": "550,000 USD"
+    },
+    {
+        "playerId": 12,
+        "name": "Sunil Narine",
+        "country": "West Indies",
+        "image": "https://i.ibb.co.com/jrNHJZv/narine-500-1711708448389.jpg",
+        "role": "Bowler",
+        "battingBowlingType": "Left-hand bat, Right-arm offbreak",
+        "biddingPrice": "500,000 USD"
+    },
+    {
+        "playerId": 13,
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "image": "https://i.ibb.co.com/qYqGDj0/383731-6.webp",
+        "role": "Bowler",
+        "battingBowlingType": "Right-arm legbreak",
+        "biddingPrice": "700,000 USD"
+    },
+    {
+        "playerId": 14,
+        "name": "Mustafizur Rahman",
+        "country": "Bangladesh",
+        "image": "https://i.ibb.co.com/mvwzM5G/Mustafizur-Rahman-1024x577.jpg",
+        "role": "Bowler",
+        "battingBowlingType": "Left-arm fast",
+        "biddingPrice": "400,000 USD"
+    },
+    {
+        "playerId": 15,
+        "name": "Alex Hales",
+        "country": "England",
+        "image": "https://i.ibb.co.com/TvpVj9F/maxresdefault.jpg",
+        "role": "Batsman",
+        "battingBowlingType": "Right-hand bat",
+        "biddingPrice": "500,000 USD"
+    }
+]
