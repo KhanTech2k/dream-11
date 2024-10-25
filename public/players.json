@@ -6,7 +6,7 @@
         "image": "https://i.ibb.co.com/GcngVwf/tamim-iqbal-odi-squad-16-02-2023.jpg",
         "role": "Batsman",
         "battingBowlingType": "Left-hand bat",
-        "biddingPrice": "500,000 USD"
+        "biddingPrice": 500000
     },
     {
         "playerId": 2,
@@ -15,7 +15,7 @@
         "image": "https://i.ibb.co.com/TwycdTb/5ea2ed1eb81e2.jpg",
         "role": "All-rounder",
         "battingBowlingType": "Left-hand bat, Left-arm orthodox",
-        "biddingPrice": "600,000 USD"
+        "biddingPrice": 600000
     },
     {
         "playerId": 3,
@@ -24,7 +24,7 @@
         "image": "https://i.ibb.co.com/GVm9Rr3/l31920240429122655.webp",
         "role": "All-rounder",
         "battingBowlingType": "Right-hand bat, Right-arm fast",
-        "biddingPrice": "700,000 USD"
+        "biddingPrice": 700000
     },
     {
         "playerId": 4,
@@ -33,7 +33,7 @@
         "image": "https://i.ibb.co.com/NNS20HK/CHRIS-GAYLE-png.webp",
         "role": "Batsman",
         "battingBowlingType": "Left-hand bat",
-        "biddingPrice": "650,000 USD"
+        "biddingPrice": 650000
     },
     {
         "playerId": 5,
@@ -42,7 +42,7 @@
         "image": "https://i.ibb.co.com/KNBDR3q/mashrafe-bin-mortaza-ehlatifee-com-202012137599.jpg",
         "role": "Bowler",
         "battingBowlingType": "Right-arm medium-fast",
-        "biddingPrice": "300,000 USD"
+        "biddingPrice": 300000
     },
     {
         "playerId": 6,
@@ -51,7 +51,7 @@
         "image": "https://i.ibb.co.com/8XDgk45/prothomalo-english-2021-10-c948c397-1942-452d-b9c3-76709ac01347-Cricket.webp",
         "role": "All-rounder",
         "battingBowlingType": "Right-hand bat, Right-arm offbreak",
-        "biddingPrice": "450,000 USD"
+        "biddingPrice": 450000
     },
     {
         "playerId": 7,
@@ -60,7 +60,7 @@
         "image": "https://i.ibb.co.com/ZBCKtH8/1213328-238315-11111111-updates.webp",
         "role": "All-rounder",
         "battingBowlingType": "Right-hand bat, Right-arm offbreak",
-        "biddingPrice": "400,000 USD"
+        "biddingPrice": 400000
     },
     {
         "playerId": 8,
@@ -69,7 +69,7 @@
         "image": "https://i.ibb.co.com/5GF5Tc0/83c2f-17195551172498-1920.webp",
         "role": "Bowler",
         "battingBowlingType": "Right-arm offbreak",
-        "biddingPrice": "350,000 USD"
+        "biddingPrice": 350000
     },
     {
         "playerId": 9,
@@ -78,7 +78,7 @@
         "image": "https://i.ibb.co.com/J2R15xJ/Kieron-pollard-1660034431634-1660034431915-1660034431915.jpg",
         "role": "All-rounder",
         "battingBowlingType": "Right-hand bat, Right-arm medium-fast",
-        "biddingPrice": "600,000 USD"
+        "biddingPrice": 600000
     },
     {
         "playerId": 10,
@@ -87,7 +87,7 @@
         "image": "https://i.ibb.co.com/PmHp3Td/253160.webp",
         "role": "Batsman",
         "battingBowlingType": "Left-hand bat",
-        "biddingPrice": "300,000 USD"
+        "biddingPrice": 300000
     },
     {
         "playerId": 11,
@@ -96,7 +96,7 @@
         "image": "https://i.ibb.co.com/5vc1NQC/faf-du-plessis-smashed-a-20-ball-fifty.webp",
         "role": "Batsman",
         "battingBowlingType": "Right-hand bat",
-        "biddingPrice": "550,000 USD"
+        "biddingPrice": 550000
     },
     {
         "playerId": 12,
@@ -105,7 +105,7 @@
         "image": "https://i.ibb.co.com/jrNHJZv/narine-500-1711708448389.jpg",
         "role": "Bowler",
         "battingBowlingType": "Left-hand bat, Right-arm offbreak",
-        "biddingPrice": "500,000 USD"
+        "biddingPrice": 500000
     },
     {
         "playerId": 13,
@@ -123,7 +123,7 @@
         "image": "https://i.ibb.co.com/mvwzM5G/Mustafizur-Rahman-1024x577.jpg",
         "role": "Bowler",
         "battingBowlingType": "Left-arm fast",
-        "biddingPrice": "400,000 USD"
+        "biddingPrice": 400000
     },
     {
         "playerId": 15,
@@ -132,6 +132,6 @@
         "image": "https://i.ibb.co.com/TvpVj9F/maxresdefault.jpg",
         "role": "Batsman",
         "battingBowlingType": "Right-hand bat",
-        "biddingPrice": "500,000 USD"
+        "biddingPrice": 500000
     }
 ]

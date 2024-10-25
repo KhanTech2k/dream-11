@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const Banner = ({handleFreeCredit}) => {
+const Banner = ({ handleFreeCredit }) => {
     return (
         <><div className="bg-black p-10 bg-[url('/src/assets/bg-shadow.png')] bg-cover ">
             <div className="flex justify-center">
@@ -11,8 +11,7 @@ const Banner = ({handleFreeCredit}) => {
             </div></div></>
     );
 };
-Banner.propTypes={
-    handleFreeCredit: PropTypes.object
+Banner.propTypes = {
+    handleFreeCredit: PropTypes.func
 }
-
 export default Banner;

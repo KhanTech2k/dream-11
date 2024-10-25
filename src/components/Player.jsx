@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-const Player = ({player,handleSelectedPlayers}) => {
-    const {name,country,image,role,battingBowlingType,biddingPrice}=player;
+const Player = ({ player, handleSelectedPlayers }) => {
+    const { name, country, image, role, battingBowlingType, biddingPrice } = player;
     // console.log(player)
     return (
         <div>
@@ -16,19 +16,19 @@ const Player = ({player,handleSelectedPlayers}) => {
             <div>
                 <h3>Rating</h3>
                 <div>
-                   {battingBowlingType} 
+                    {battingBowlingType}
                 </div>
                 <div className="flex justify-between">
                     <p>Price: {biddingPrice}</p>
-                    <button onClick={()=>handleSelectedPlayers(player)} className="btn">Choose Player</button>
+                    <button onClick={() => handleSelectedPlayers(player)} className="btn">Choose Player</button>
                 </div>
             </div>
         </div>
     );
 };
 
-Player.propTypes={
+Player.propTypes = {
     player: PropTypes.object,
-    handleSelectedPlayers:PropTypes.func
+    handleSelectedPlayers: PropTypes.func
 }
 export default Player;

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const Navbar = ({credit}) => {
+const Navbar = ({ credit }) => {
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -27,7 +27,7 @@ const Navbar = ({credit}) => {
     </div>
   );
 };
-Navbar.propTypes={
-  credit: PropTypes.object
+Navbar.propTypes = {
+  credit: PropTypes.number
 }
 export default Navbar;

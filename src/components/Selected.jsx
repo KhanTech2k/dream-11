@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
-const Selected = ({ selectedPlayers,handleRemove}) => {
+const Selected = ({ selectedPlayers, handleRemove, setShowSelected }) => {
     return (
         <div>
-            <h2>Selected Players</h2>
             <div >
                 <div>{selectedPlayers.map(player => (
                     <div className="flex justify-between" key={player.playerId}>
@@ -14,11 +13,13 @@ const Selected = ({ selectedPlayers,handleRemove}) => {
                     </div>
                 ))}</div>
             </div>
+            <button onClick={() => setShowSelected(false)} className="btn">Add More Player</button>
         </div>
     );
 };
 Selected.propTypes = {
     selectedPlayers: PropTypes.object,
-    handleRemove: PropTypes.func
+    handleRemove: PropTypes.func,
+    setShowSelected: PropTypes.object
 }
 export default Selected;
