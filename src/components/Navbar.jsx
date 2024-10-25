@@ -1,4 +1,5 @@
-const Navbar = () => {
+import PropTypes from "prop-types";
+const Navbar = ({credit}) => {
   return (
     <div>
       <div className="navbar bg-base-100">
@@ -20,11 +21,13 @@ const Navbar = () => {
               <a>Schedules</a>
             </li>
           </ul>
-          <button className="btn">0 coin <span></span></button>
+          <button className="btn">{credit} coin <span></span></button>
         </div>
       </div>
     </div>
   );
 };
-
+Navbar.propTypes={
+  credit: PropTypes.object
+}
 export default Navbar;
