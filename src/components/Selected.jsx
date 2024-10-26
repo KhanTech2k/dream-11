@@ -4,16 +4,19 @@ const Selected = ({ selectedPlayers, handleRemove, setShowSelected }) => {
         <div>
             <div >
                 <div>{selectedPlayers.map(player => (
-                    <div className="flex justify-between" key={player.playerId}>
-                        <div className="flex">
-                            <img className="w-[80px]" src={player.image} alt="" />
-                            <div>{player.name}</div>
+                    <div className="flex justify-between items-center border border-3 p-6 my-6" key={player.playerId}>
+                        <div className="flex items-center">
+                            <img className="w-[80px] h-[80px] rounded-full object-cover" src={player.image} alt="" />
+                            <div className="ml-3">
+                                <p className="text-lg font-semibold">{player.name}</p>
+                                <p className="text-[#131313B3]">{player.battingBowlingType}</p>
+                                </div>
                         </div>
-                        <div><button onClick={() => handleRemove(player)} className="btn">Delete</button></div>
+                        <div><button onClick={() => handleRemove(player)} className="btn text-red-500"><i className="fa-regular fa-trash-can"></i></button></div>
                     </div>
                 ))}</div>
             </div>
-            <button onClick={() => setShowSelected(false)} className="btn">Add More Player</button>
+            <button onClick={() => setShowSelected(false)} className="border-2 p-1 rounded-lg"><div className="btn bg-[#E7FE29] font-bold ">Add More Player</div></button>
         </div>
     );
 };

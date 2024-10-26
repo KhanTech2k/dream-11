@@ -17,14 +17,11 @@ const Players = ({ handleDeductPrice, credit }) => {
             alert("No more empty slot");
             return;
         }
-        // Check if player is already in the selectedPlayers array
         if (selectedPlayers.includes(player)) {
             alert("Already Added");
         } else if (credit >= player.biddingPrice) {
             setSelectedPlayers([...selectedPlayers, player]);
             alert("Congrats");
-
-            // Deduct balance only if adding for the first time
             handleDeductPrice(player.biddingPrice);
         } else {
             alert("Insufficient balance!");
@@ -37,10 +34,20 @@ const Players = ({ handleDeductPrice, credit }) => {
     return (
         <div>
             <div className="flex justify-between my-8">
-                <p>{showSelected ? `Selected Player:(${selectedPlayers.length}/6)` : "Available Players"}</p>
+                <p className="text-3xl font-bold">{showSelected ? `Selected Player:(${selectedPlayers.length}/6)` : "Available Players"}</p>
                 <div className="flex gap-4">
-                    <button onClick={() => setShowSelected(false)} className="btn">Available</button>
-                    <button onClick={() => setShowSelected(true)} className="btn">Selected {selectedPlayers.length}</button>
+                    <button
+                        onClick={() => setShowSelected(false)}
+                        className={`btn font-bold ${!showSelected ? 'bg-[#E7FE29]' : 'text-[#13131399]'}`}
+                    >
+                        Available
+                    </button>
+                    <button
+                        onClick={() => setShowSelected(true)}
+                        className={`btn font-bold ${showSelected ? 'bg-[#E7FE29]' : 'text-[#13131399]'}`}
+                    >
+                        Selected {selectedPlayers.length}
+                    </button>
                 </div>
             </div>
             {showSelected ? (

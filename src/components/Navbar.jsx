@@ -1,13 +1,15 @@
 import PropTypes from "prop-types";
+import logo from '../assets/logo.png';
+import coin from '../assets/coin.png'
 const Navbar = ({ credit }) => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 py-8">
         <div className="navbar-start">
-          <img src="/src/assets/logo.png" alt="" />
+          <img src={logo} alt="" />
         </div>
         <div className="navbar-end">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="flex gap-8 px-2 text-[#131313B3]">
             <li>
               <a>Home</a>
             </li>
@@ -21,7 +23,7 @@ const Navbar = ({ credit }) => {
               <a>Schedules</a>
             </li>
           </ul>
-          <button className="btn">{credit} coin <span></span></button>
+          <button className="btn font-bold">{credit} Coin <img src={coin} alt="" /></button>
         </div>
       </div>
     </div>

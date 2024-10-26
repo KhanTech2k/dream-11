@@ -3,13 +3,16 @@ import './App.css'
 import Banner from './components/Banner'
 import Navbar from './components/Navbar'
 import Players from './components/Players'
+import Footer from './components/Footer'
+import Subscribe from './components/Subscribe'
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
-  const [credit,setCredit]=useState(0)
-  const handleFreeCredit =()=>{
-    setCredit((credit)=>credit +1000000)
+  const [credit, setCredit] = useState(0)
+  const handleFreeCredit = () => {
+    setCredit((credit) => credit + 1000000)
   }
-  const handleDeductPrice = (biddingPrice) =>{
+  const handleDeductPrice = (biddingPrice) => {
     if (credit >= biddingPrice) {
       setCredit((credit) => credit - biddingPrice);
     } else {
@@ -18,9 +21,11 @@ function App() {
   }
   return (
     <>
-    <Navbar  credit={credit}></Navbar>
-    <Banner handleFreeCredit={handleFreeCredit}></Banner>
-    <Players credit={credit}  handleDeductPrice={handleDeductPrice}></Players>
+      <Navbar credit={credit}></Navbar>
+      <Banner handleFreeCredit={handleFreeCredit}></Banner>
+      <Players credit={credit} handleDeductPrice={handleDeductPrice}></Players>
+      <Subscribe></Subscribe>
+      <Footer></Footer>
     </>
   )
 }
