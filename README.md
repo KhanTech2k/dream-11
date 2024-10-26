@@ -15,4 +15,3 @@
 
 5. Live Link: 
     Surge: http://hanging-stretch.surge.sh
-    Vercel: https://b10a7-dream-11-khan-tech2k.vercel.app/
