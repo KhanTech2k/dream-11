@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import Player from "./Player";
 import Selected from "./Selected";
 import PropTypes from "prop-types";
+import 'react-toastify/ReactToastify.css';
+import { toast } from 'react-toastify';
 
 const Players = ({ handleDeductPrice, credit }) => {
     const [players, setPlayers] = useState([]);
@@ -14,22 +16,23 @@ const Players = ({ handleDeductPrice, credit }) => {
     }, []);
     const handleSelectedPlayers = (player) => {
         if (selectedPlayers.length >= 6) {
-            alert("No more empty slot");
+            toast.warning("Maximum 6 players can be selected.");
             return;
         }
         if (selectedPlayers.includes(player)) {
-            alert("Already Added");
+            toast.info(`${player.name} has been already selected.`);
         } else if (credit >= player.biddingPrice) {
             setSelectedPlayers([...selectedPlayers, player]);
-            alert("Congrats");
+            toast.success(`Congratulations! ${player.name} has been selected.`);
             handleDeductPrice(player.biddingPrice);
         } else {
-            alert("Insufficient balance!");
+            toast.error(`Not enough money to select ${player.name}.`);
         }
     };
     const handleRemove = (player) => {
         const newSelected = selectedPlayers.filter((newPlayer) => newPlayer.playerId !== player.playerId)
-        setSelectedPlayers(newSelected)
+        setSelectedPlayers(newSelected);
+        toast.error(`${player.name} removed form the list.`);
     }
     return (
         <div>

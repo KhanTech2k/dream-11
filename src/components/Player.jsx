@@ -17,8 +17,8 @@ const Player = ({ player, handleSelectedPlayers }) => {
                 <div className="font-bold">
                     {battingBowlingType}
                 </div>
-                <div className="flex justify-between">
-                    <p className="font-bold">Price: ${biddingPrice}</p>
+                <div className="flex justify-between items-center">
+                    <p className="font-bold my-3">Price: ${biddingPrice}</p>
                     <button onClick={() => handleSelectedPlayers(player)} className="btn font-bold">Choose Player</button>
                 </div>
             </div>

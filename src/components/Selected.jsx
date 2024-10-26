@@ -4,7 +4,7 @@ const Selected = ({ selectedPlayers, handleRemove, setShowSelected }) => {
         <div>
             <div >
                 <div>{selectedPlayers.map(player => (
-                    <div className="flex justify-between items-center border border-3 p-6 my-6" key={player.playerId}>
+                    <div className="flex justify-between items-center border border-3 p-6 my-6 rounded-lg" key={player.playerId}>
                         <div className="flex items-center">
                             <img className="w-[80px] h-[80px] rounded-full object-cover" src={player.image} alt="" />
                             <div className="ml-3">
@@ -16,7 +16,7 @@ const Selected = ({ selectedPlayers, handleRemove, setShowSelected }) => {
                     </div>
                 ))}</div>
             </div>
-            <button onClick={() => setShowSelected(false)} className="border-2 p-1 rounded-lg"><div className="btn bg-[#E7FE29] font-bold ">Add More Player</div></button>
+            <button onClick={() => setShowSelected(false)} className="border-2 border-[#E7FE29] p-1 rounded-lg"><div className="btn bg-[#E7FE29] font-bold border-none">Add More Player</div></button>
         </div>
     );
 };
