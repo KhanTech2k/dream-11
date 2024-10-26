@@ -10,7 +10,7 @@ const Selected = ({ selectedPlayers, handleRemove, setShowSelected }) => {
                             <div className="ml-3">
                                 <p className="text-lg font-semibold">{player.name}</p>
                                 <p className="text-[#131313B3]">{player.battingBowlingType}</p>
-                                </div>
+                            </div>
                         </div>
                         <div><button onClick={() => handleRemove(player)} className="btn text-red-500"><i className="fa-regular fa-trash-can"></i></button></div>
                     </div>

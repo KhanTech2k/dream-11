@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Player from "./Player";
 import Selected from "./Selected";
 import PropTypes from "prop-types";
-import 'react-toastify/ReactToastify.css';
 import { toast } from 'react-toastify';
 
 const Players = ({ handleDeductPrice, credit }) => {
@@ -32,7 +31,7 @@ const Players = ({ handleDeductPrice, credit }) => {
     const handleRemove = (player) => {
         const newSelected = selectedPlayers.filter((newPlayer) => newPlayer.playerId !== player.playerId)
         setSelectedPlayers(newSelected);
-        toast.error(`${player.name} removed form the list.`);
+        toast.error(`You removed ${player.name} form the list.`);
     }
     return (
         <div>
